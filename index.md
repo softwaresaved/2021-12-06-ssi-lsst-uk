@@ -69,10 +69,10 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endif %}
 {% endcomment %}
 
-This is a pilot workshop for the Intermediate Python Software Skills course developed by the [Software Sustainability Institute](https://software.ac.uk) delivered for the members of the [LSST:UK community](https://www.lsst.ac.uk/).
+This is a pilot workshop for the Intermediate Python Software Skills course developed by the [Software Sustainability Institute](https://software.ac.uk) and delivered to the members of the [LSST:UK community](https://www.lsst.ac.uk/).
   
 <h3 id="audience">Audience</h3>
-This course is aimed at teaching a core set of established intermediate-level best practice software development skills for working as part of a team in a research environment using Python as an example programming language. A typical learner for this course may be someone who is working in academic research and who has gained basic software development skills and has been applying those skills actively for half a year or more. Now their software development-related projects are now becoming larger and are involving more researchers and other stakeholders so they now they need more intermediate software engineering skills to help them design more robust software code, automate the process of testing and verifying its correctness and support collaborations with others.
+This course is aimed at teaching a core set of established intermediate-level best practice Python software development skills for working as part of a team in a research environment. A typical learner for this course may be someone who is working in academic research and who has gained basic software development skills and has been applying those skills actively for half a year or more. Now their software development-related projects are becoming larger and are involving more researchers and other stakeholders so they now they need additional software engineering skills to help them design more robust software code, automate the process of testing and verifying its correctness and support collaborations with others.
 
 <h3 id="where">When & Where</h3>
 The workshop will run online over 5 half-days, from {{page.humandate}}, {{page.humantime}}, using Zoom. The Zoom link to use for this event will be shared via email to registered participants.
