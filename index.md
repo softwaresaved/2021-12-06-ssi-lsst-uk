@@ -211,6 +211,7 @@ This is one of the places where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
+
 {% comment %}
 <h2 id="syllabus">Syllabus</h2>
 
@@ -221,7 +222,9 @@ please preview your site before committing, and make sure to run
 {% elsif site.carpentry == "lc" %}
 {% include lc/syllabus.html %}
 {% endif %}
+{% endcomment %}
 
+{% comment %}
 <hr/>
 
 <h2 id="setup">Setup</h2>
