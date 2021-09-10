@@ -121,28 +121,21 @@ for more information.
   {% assign day4 =  startdate | plus: 86400 | plus: 86400 | plus: 86400 | date_to_long_string %}
   {% assign day5 =  startdate | plus: 86400*4 | date_to_long_string %}
 
-  <h4>Day 1, {{day1}}, {{page.humantime}} {{page.timezone}}</h4>
-  <p><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></p>
+  <div>
+    <h4>Day 1, {{day1}}, {{page.humantime}} {{page.timezone}}</h4>
+    <p><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></p>
 
-  <div class="col-md-6">
-    <h3>Day 2, {{day2}}, {{page.humantime}} {{page.timezone}}</h3>
-    <table class="table table-striped">
-      <tr> <td><a href="http://swcarpentry.github.io/python-novice-gapminder/" target="_blank">Building Programs with Python - Part 1</a></td> </tr>
-    </table>
-  </div>
-</div>
-<div class="row">
-    <div class="col-md-6">
-    <h3>Day 3, {{day3}}, {{page.humantime}} {{page.timezone}}</h3>
-    <table class="table table-striped">
-      <tr> <td><a href="http://swcarpentry.github.io/python-novice-gapminder/" target="_blank">Building Programs with Python - Part 2</a></td> </tr>
-    </table>
-  </div>
-  <div class="col-md-6">
-      <h3>Day 4, {{day4}}, {{page.humantime}} {{page.timezone}}</h3>
-      <table class="table table-striped">
-        <tr> <td><a href="http://swcarpentry.github.io/git-novice" target="_blank">Version Control with Git</a></td> </tr>
-      </table>
+    <h4>Day 2, {{day2}}, {{page.humantime}} {{page.timezone}}</h4>
+    <p><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></p>
+    
+    <h4>Day 3, {{day3}}, {{page.humantime}} {{page.timezone}}</h4>
+    <p><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></p>
+    
+    <h4>Day 5, {{day4}}, {{page.humantime}} {{page.timezone}}</h4>
+    <p><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></p>
+    
+    <h4>Day 5, {{day5}}, {{page.humantime}} {{page.timezone}}</h4>
+    <p><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></p>
   </div>
 </div>
 
