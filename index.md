@@ -67,14 +67,10 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% include lc/intro.html %}
 {% endif %}
 
-This Software Carpentry workshop is organised jointly by colleagues from <a href="https://www.methods.manchester.ac.uk/" target="_blank">Methods@Manchester, <a href="https://www.library.manchester.ac.uk/" target="_blank">the University of Manchester Library</a>, <a href="https://www.itservices.manchester.ac.uk/research/" target="_blank">the University of Manchester Research IT</a>, and Manchester branch of <a href="https://software.ac.uk/" target="_blank">the Software Sustainability Institute</a>.
-
-We are committed to providing a positive and accessible learning environment for all. Please
-  notify the <a href="mailto:{{page.email}}">hosts</a> in advance of the workshop if you require any accommodations or if there is
-  anything we can do to make this workshop more accessible to you.
+This is a pilot workshop for the Intermediate Python Software Skills course developed by the [Software Sustainability Institute](https://software.ac.uk) delivered for the members of the [LSST:UK community](https://www.lsst.ac.uk/).
   
 <h3 id="audience">Audience</h3>
-The workshop is aimed at the University of Manchester's postgraduate students and research and other staff who develop software or deal with or analyse data as part of their work. You don't need to have any previous knowledge of the tools that will be presented at the workshop - this is an introductory-level course.
+This course is aimed at teaching a core set of established intermediate-level best practice software development skills for working as part of a team in a research environment using Python as an example programming language. A typical learner for this course may be someone who is working in academic research and who has gained basic software development skills and has been applying those skills actively for half a year or more. Now their software development-related projects are now becoming larger and are involving more researchers and other stakeholders so they now they need more intermediate software engineering skills to help them design more robust software code, automate the process of testing and verifying its correctness and support collaborations with others.
 
 <h3 id="where">When & Where</h3>
 The workshop will be run online over 4 half-days, from {{page.humandate}}, {{page.humantime}}. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download" target="_blank">download and install Zoom client</a> to connect with your instructors. The Zoom link to use for this event will be announced via email to registered participants.
