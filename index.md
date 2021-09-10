@@ -121,7 +121,7 @@ for more information.
   {% assign day4 =  startdate | plus: 86400 | plus: 86400 | plus: 86400 | date_to_long_string %}
   {% assign day5 =  startdate | plus: 86400*4 | date_to_long_string %}
 
-  <div>
+  <div style="padding-left: 15px;">
     <h4>Day 1, {{day1}}, {{page.humantime}} {{page.timezone}}</h4>
     <p><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></p>
 
