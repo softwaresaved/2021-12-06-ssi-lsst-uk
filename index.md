@@ -81,7 +81,7 @@ The workshop will run online over 5 half-days, from {{page.humandate}}, {{page.h
 Registration will be announced soon.
 
 <h3>Requirements</h3>
-Participants must have a laptop/PC with a Mac, Linux, or Windows operating system and a few [software tools](https://softwaresaved.github.io/python-intermediate-development/setup.html) installed.
+Participants must have a laptop/PC with a Mac, Linux, or Windows operating system and a few [software tools](https://softwaresaved.github.io/python-intermediate-development/setup.html) installed ahead of the workshop.
 
 <h3>Code of Conduct</h3>
 
@@ -124,6 +124,8 @@ Note we also have a CodiMD (the open-source version of HackMD)
 available at https://codimd.carpentries.org
 {% endcomment %}
 {% if page.collaborative_notes %}
+
+{% comment %}
 <h2 id="collaborative_notes">Collaborative Notes</h2>
 
 <p>
@@ -140,6 +142,7 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop survey</a></p>
+{% comment %}
 
 <hr/>
 
