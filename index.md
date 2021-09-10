@@ -57,6 +57,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endunless %}
 {% endif %}
 
+{% comment %}
 <h2 id="general">General Information</h2>
 
 {% if site.carpentry == "swc" %}
@@ -66,6 +67,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% elsif site.carpentry == "lc" %}
 {% include lc/intro.html %}
 {% endif %}
+{% endcomment %}
 
 This is a pilot workshop for the Intermediate Python Software Skills course developed by the [Software Sustainability Institute](https://software.ac.uk) delivered for the members of the [LSST:UK community](https://www.lsst.ac.uk/).
   
