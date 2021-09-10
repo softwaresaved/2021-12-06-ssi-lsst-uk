@@ -69,7 +69,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endif %}
 {% endcomment %}
 
-This is a pilot workshop for the Intermediate Python Software Skills course developed by the [Software Sustainability Institute](https://software.ac.uk) and delivered to the members of the [LSST:UK community](https://www.lsst.ac.uk/).
+This is a pilot workshop for the Intermediate Python Software Skills course developed by the [Software Sustainability Institute](https://software.ac.uk) and delivered to the members of the [LSST:UK community](https://www.lsst.ac.uk/). The workshop will be led by instructors but will be largely in self-learning format - this means particiants will go though the materials on their own or in groups aided by insturctors and a group of helpers.
   
 <h3 id="audience">Audience</h3>
 This course is aimed at teaching a core set of established intermediate-level best practice Python software development skills for working as part of a team in a research environment. A typical learner for this course may be someone who is working in academic research and who has gained basic software development skills and has been applying those skills actively for half a year or more. Now their software development-related projects are becoming larger and are involving more stakeholders so they now they need additional software engineering skills to help them design more robust software code, automate the process of testing and verifying its correctness and support collaborations with others.
@@ -113,7 +113,8 @@ for more information.
 <h3 id="schedule">Materials & Schedule</h3>
 The [material to be covered at the workshop](https://softwaresaved.github.io/python-intermediate-development/index.html) is available online but is still in development and thus may change. 
 
-Provisional schedule is shown below - be aware that there might be slight shift between the actual material covered on each day.
+Provisional schedule is shown below - be aware that there might be slight shift between the actual material covered on each day as you will be asked to finish all tasks from 
+the previous day before moving forward.
 
 <div class="row">
 <!--  <div style="padding-left: 15px;">Before the workshop: please fill in the <a href="{{ site.pre_survey }}{{ site.github.project_title }}">pre-workshop survey</a></div>-->
