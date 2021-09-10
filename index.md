@@ -223,7 +223,6 @@ please preview your site before committing, and make sure to run
 {% endif %}
 
 <hr/>
-{% endcomment %}
 
 <h2 id="setup">Setup</h2>
 <h3>Installation instructions</h3>
@@ -245,7 +244,7 @@ please preview your site before committing, and make sure to run
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-
+{% endcomment %}
 
 {% comment %}
 These are the installation instructions for the tools used
