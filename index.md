@@ -75,15 +75,13 @@ This is a pilot workshop for the Intermediate Python Software Skills course deve
 This course is aimed at teaching a core set of established intermediate-level best practice software development skills for working as part of a team in a research environment using Python as an example programming language. A typical learner for this course may be someone who is working in academic research and who has gained basic software development skills and has been applying those skills actively for half a year or more. Now their software development-related projects are now becoming larger and are involving more researchers and other stakeholders so they now they need more intermediate software engineering skills to help them design more robust software code, automate the process of testing and verifying its correctness and support collaborations with others.
 
 <h3 id="where">When & Where</h3>
-The workshop will be run online over 4 half-days, from {{page.humandate}}, {{page.humantime}}. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download" target="_blank">download and install Zoom client</a> to connect with your instructors. The Zoom link to use for this event will be announced via email to registered participants.
+The workshop will run online over 5 half-days, from {{page.humandate}}, {{page.humantime}}, using Zoom. The Zoom link to use for this event will be shared via email to registered participants.
 
 <h3>Registration</h3>
-Registration is free <a href="https://www.eventbrite.com/e/{{page.eventbrite}}" target="_blank">
-via EventBrite</a>. You will need a special code to register - please get in touch with 
-<a href='mailto:{{page.email}}'>Aleksandra Nenadic</a> using your Manchester email address.
+Registration will be announced soon.
 
 <h3>Requirements</h3>
-Participants must have a laptop/PC with a Mac, Linux, or Windows operating system (rather than a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few [specific software packages]({{site.baseurl}}/#setup) installed (listed below).
+Participants must have a laptop/PC with a Mac, Linux, or Windows operating system and a few [software tools](https://softwaresaved.github.io/python-intermediate-development/setup.html) installed.
 
 <h3>Code of Conduct</h3>
 
