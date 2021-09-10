@@ -110,7 +110,9 @@ for more information.
 
 <hr/>
 
-<h3 id="schedule">Schedule & Materials</h3>
+<h3 id="schedule">Materials & Schedule</h3>
+The [materials to be covered at the workshop](https://softwaresaved.github.io/python-intermediate-development/index.html) are available online. Provisional schedule
+is shown below but be aware that there might be slight shifting between the actual material covered on each day.
 
 <div class="row">
 <!--  <div style="padding-left: 15px;">Before the workshop: please fill in the <a href="{{ site.pre_survey }}{{ site.github.project_title }}">pre-workshop survey</a></div>-->
@@ -123,19 +125,19 @@ for more information.
 
   <div style="padding-left: 15px;">
     <h4>Day 1, {{day1}}, {{page.humantime}} {{page.timezone}}</h4>
-    <p><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></p>
+    <p><a href="https://softwaresaved.github.io/python-intermediate-development/01-section1-intro/index.html" target="_blank">Environment For Collaborative Code Development</a></p>
 
     <h4>Day 2, {{day2}}, {{page.humantime}} {{page.timezone}}</h4>
-    <p><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></p>
+    <p><a href="https://softwaresaved.github.io/python-intermediate-development/11-section2-intro/index.html" target="_blank">Ensuring Correctness of Software at Scale</a></p>
     
     <h4>Day 3, {{day3}}, {{page.humantime}} {{page.timezone}}</h4>
-    <p><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></p>
+    <p><a href="https://softwaresaved.github.io/python-intermediate-development/21-section3-intro/index.html">Software Architecture and Design</a></p>
     
-    <h4>Day 5, {{day4}}, {{page.humantime}} {{page.timezone}}</h4>
-    <p><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></p>
+    <h4>Day 4, {{day4}}, {{page.humantime}} {{page.timezone}}</h4>
+    <p><a href="https://softwaresaved.github.io/python-intermediate-development/31-section4-intro/index.html" target="_blank">Developing Software In a Team and Releasing It</a></p>
     
     <h4>Day 5, {{day5}}, {{page.humantime}} {{page.timezone}}</h4>
-    <p><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></p>
+    <p><a href="https://softwaresaved.github.io/python-intermediate-development/40-wrap-up/index.html" target="_blank">Finishing off tasks from previous days, Q & A, workshop wrap up</a></p>
   </div>
 </div>
 
