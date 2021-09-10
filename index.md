@@ -111,8 +111,9 @@ for more information.
 <hr/>
 
 <h3 id="schedule">Materials & Schedule</h3>
-The [materials to be covered at the workshop](https://softwaresaved.github.io/python-intermediate-development/index.html) are available online. Provisional schedule
-is shown below but be aware that there might be slight shifting between the actual material covered on each day.
+The [material to be covered at the workshop](https://softwaresaved.github.io/python-intermediate-development/index.html) is available online but is still in development and thus may change. 
+
+Provisional schedule is shown below - be aware that there might be slight shift between the actual material covered on each day.
 
 <div class="row">
 <!--  <div style="padding-left: 15px;">Before the workshop: please fill in the <a href="{{ site.pre_survey }}{{ site.github.project_title }}">pre-workshop survey</a></div>-->
