@@ -119,13 +119,11 @@ for more information.
   {% assign day2 =  startdate | plus: 86400 | date_to_long_string %}
   {% assign day3 =  startdate | plus: 86400 | plus: 86400 | date_to_long_string %}
   {% assign day4 =  startdate | plus: 86400 | plus: 86400 | plus: 86400 | date_to_long_string %}
+  {% assign day5 =  startdate | plus: 86400*4 | date_to_long_string %}
 
-  <div class="col-md-6">
-    <h3>Day 1, {{day1}}, {{page.humantime}} {{page.timezone}}</h3>
-    <table class="table table-striped">
-      <tr> <td><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></td> </tr>
-    </table>
-  </div>
+  <h4>Day 1, {{day1}}, {{page.humantime}} {{page.timezone}}</h4>
+  <p><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></p>
+
   <div class="col-md-6">
     <h3>Day 2, {{day2}}, {{page.humantime}} {{page.timezone}}</h3>
     <table class="table table-striped">
