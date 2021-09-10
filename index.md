@@ -110,50 +110,6 @@ for more information.
 
 <hr/>
 
-{% comment %}
-Collaborative Notes
-
-If you want to use an Etherpad, go to
-
-https://pad.carpentries.org/YYYY-MM-DD-site
-
-where 'YYYY-MM-DD-site' is the identifier for your workshop,
-e.g., '2015-06-10-esu'.
-
-Note we also have a CodiMD (the open-source version of HackMD)
-available at https://codimd.carpentries.org
-{% endcomment %}
-{% if page.collaborative_notes %}
-
-{% comment %}
-<h2 id="collaborative_notes">Collaborative Notes</h2>
-
-<p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code during the workshop.
-</p>
-<hr/>
-{% endif %}
-
-
-{% comment %}
-SURVEYS - DO NOT EDIT SURVEY LINKS
-{% endcomment %}
-<h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop survey</a></p>
-{% comment %}
-
-<hr/>
-
-
-{% comment %}
-SCHEDULE
-
-Show the workshop's schedule.  Edit the items and times in the table
-to match your plans.  You may also want to change 'Day 1' and 'Day
-2' to be actual dates or days of the week.
-{% endcomment %}
 <h3 id="schedule">Schedule & Materials</h3>
 
 <div class="row">
@@ -192,66 +148,6 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
   </div>
 </div>
 
-<hr/>
 
-{% comment %}
-SYLLABUS
-
-Show what topics will be covered.
-
-1. If your workshop is R rather than Python, remove the comment
-around that section and put a comment around the Python section.
-2. Some workshops will delete SQL.
-3. Please make sure the list of topics is synchronized with what you
-intend to teach.
-4. You may need to move the div's with class="col-md-6" around inside
-the div's with class="row" to balance the multi-column layout.
-
-This is one of the places where people frequently make mistakes, so
-please preview your site before committing, and make sure to run
-'tools/check' as well.
-{% endcomment %}
-
-{% comment %}
-<h2 id="syllabus">Syllabus</h2>
-
-{% if site.carpentry == "swc" %}
-{% include swc/syllabus.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/syllabus.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/syllabus.html %}
-{% endif %}
-{% endcomment %}
-
-{% comment %}
-<hr/>
-
-<h2 id="setup">Setup</h2>
-<h3>Installation instructions</h3>
-<p>
-  To participate in this workshop,
-  you will need to install <strong>all of the software described below before coming to the workshop</strong>. We will run a pre-workshop installation session to help everyone set up and make sure they have the required software installed.
-</p>
-
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
-{% endif %}
-
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
-{% endcomment %}
-
-{% comment %}
-These are the installation instructions for the tools used
-during the workshop.
-{% endcomment %}
 
 
