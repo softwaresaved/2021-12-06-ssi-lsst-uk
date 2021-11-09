@@ -82,7 +82,7 @@ The workshop will run online over 5 half-days, from {{page.humandate}}, {{page.h
 [Registration](https://www.eventbrite.co.uk/e/intermediate-research-software-development-skills-workshop-for-lsstuk-tickets-199677680317) is available via EventBrite - however, the workshop is for the members of the LSST:UK community and you will need a special code to register.
 
 <h3>Requirements</h3>
-Participants must have a laptop/PC with a Mac, Linux, or Windows operating system and a few [software tools](https://softwaresaved.github.io/python-intermediate-development/setup.html) installed ahead of the workshop.
+Participants must have a laptop/PC with a Mac, Linux, or Windows operating system and a few [software tools]({{ course_material_url }}/setup.html) installed ahead of the workshop.
 
 <h3>Code of Conduct</h3>
 
