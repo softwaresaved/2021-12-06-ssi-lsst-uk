@@ -19,6 +19,7 @@ helper: ["Gareth Francis", "David Young", "James Perry"]     # boxed, comma-sepa
 email: ["t.sloan@epcc.ed.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  "" # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite: "199677680317"           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+course_material_url: "https://carpentries-incubator.github.io/python-intermediate-development"
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -111,7 +112,7 @@ for more information.
 <hr/>
 
 <h3 id="schedule">Materials & Schedule</h3>
-The [material to be covered at the workshop](https://softwaresaved.github.io/python-intermediate-development/index.html) is available online but is still in development and thus may change. 
+The [material to be covered at the workshop]({{ course_material_url }}) is available online but is still in development and thus may change. 
 
 Provisional schedule is shown below - be aware that there might be slight shift between the actual material covered on each day as you will be asked to finish all tasks from 
 the previous day before moving forward.
@@ -127,19 +128,19 @@ the previous day before moving forward.
 
   <div style="padding-left: 15px;">
     <h4>Day 1, {{day1}}, {{page.humantime}} {{page.timezone}}</h4>
-    <p><a href="https://softwaresaved.github.io/python-intermediate-development/01-section1-intro/index.html" target="_blank">Environment For Collaborative Code Development</a></p>
+    <p><a href="{{ course_material_url }}/01-section1-intro/index.html" target="_blank">Environment For Collaborative Code Development</a></p>
 
     <h4>Day 2, {{day2}}, {{page.humantime}} {{page.timezone}}</h4>
-    <p><a href="https://softwaresaved.github.io/python-intermediate-development/11-section2-intro/index.html" target="_blank">Ensuring Correctness of Software at Scale</a></p>
+    <p><a href="{{ course_material_url }}/11-section2-intro/index.html" target="_blank">Ensuring Correctness of Software at Scale</a></p>
     
     <h4>Day 3, {{day3}}, {{page.humantime}} {{page.timezone}}</h4>
-    <p><a href="https://softwaresaved.github.io/python-intermediate-development/21-section3-intro/index.html">Software Architecture and Design</a></p>
+    <p><a href="{{ course_material_url }}/python-intermediate-development/21-section3-intro/index.html">Software Architecture and Design</a></p>
     
     <h4>Day 4, {{day4}}, {{page.humantime}} {{page.timezone}}</h4>
-    <p><a href="https://softwaresaved.github.io/python-intermediate-development/31-section4-intro/index.html" target="_blank">Developing Software In a Team and Releasing It</a></p>
+    <p><a href="{{ course_material_url }}/python-intermediate-development/31-section4-intro/index.html" target="_blank">Developing Software In a Team and Releasing It</a></p>
     
     <h4>Day 5, {{day5}}, {{page.humantime}} {{page.timezone}}</h4>
-    <p><a href="https://softwaresaved.github.io/python-intermediate-development/40-wrap-up/index.html" target="_blank">Finishing off tasks from previous days, Q & A, workshop wrap up</a></p>
+    <p><a href="{{ course_material_url }}/40-wrap-up/index.html" target="_blank">Finishing off tasks from previous days, Q & A, workshop wrap up</a></p>
   </div>
 </div>
 
