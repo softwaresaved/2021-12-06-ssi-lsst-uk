@@ -82,7 +82,7 @@ The workshop will run online over 5 half-days, from {{page.humandate}}, {{page.h
 [Registration](https://www.eventbrite.co.uk/e/intermediate-research-software-development-skills-workshop-for-lsstuk-tickets-199677680317) is available via EventBrite - however, the workshop is for the members of the LSST:UK community and you will need a special code to register.
 
 <h3>Requirements</h3>
-Participants must have a laptop/PC with a Mac, Linux, or Windows operating system and a few [software tools]({{ course_material_url }}/setup.html) installed ahead of the workshop.
+Participants must have a laptop/PC with a Mac, Linux, or Windows operating system and a few [software tools](https://carpentries-incubator.github.io/python-intermediate-development/setup.html) installed ahead of the workshop.
 
 <h3>Code of Conduct</h3>
 
@@ -112,7 +112,7 @@ for more information.
 <hr/>
 
 <h3 id="schedule">Materials & Schedule</h3>
-The [material to be covered at the workshop]({{ course_material_url }}) is available online but is still in development and thus may change. 
+The [material to be covered at the workshop](https://carpentries-incubator.github.io/python-intermediate-development) is available online but is still in development and thus may change. 
 
 Provisional schedule is shown below - be aware that there might be slight shift between the actual material covered on each day as you will be asked to finish all tasks from 
 the previous day before moving forward.
@@ -128,19 +128,19 @@ the previous day before moving forward.
 
   <div style="padding-left: 15px;">
     <h4>Day 1, {{day1}}, {{page.humantime}} {{page.timezone}}</h4>
-    <p><a href="{{ course_material_url }}/01-section1-intro/index.html" target="_blank">Environment For Collaborative Code Development</a></p>
+    <p><a href="https://carpentries-incubator.github.io/python-intermediate-development/01-section1-intro/index.html" target="_blank">Environment For Collaborative Code Development</a></p>
 
     <h4>Day 2, {{day2}}, {{page.humantime}} {{page.timezone}}</h4>
-    <p><a href="{{ course_material_url }}/11-section2-intro/index.html" target="_blank">Ensuring Correctness of Software at Scale</a></p>
+    <p><a href="https://carpentries-incubator.github.io/python-intermediate-development/11-section2-intro/index.html" target="_blank">Ensuring Correctness of Software at Scale</a></p>
     
     <h4>Day 3, {{day3}}, {{page.humantime}} {{page.timezone}}</h4>
-    <p><a href="{{ course_material_url }}/python-intermediate-development/21-section3-intro/index.html">Software Architecture and Design</a></p>
+    <p><a href="https://carpentries-incubator.github.io/python-intermediate-development/python-intermediate-development/21-section3-intro/index.html">Software Architecture and Design</a></p>
     
     <h4>Day 4, {{day4}}, {{page.humantime}} {{page.timezone}}</h4>
-    <p><a href="{{ course_material_url }}/python-intermediate-development/31-section4-intro/index.html" target="_blank">Developing Software In a Team and Releasing It</a></p>
+    <p><a href="https://carpentries-incubator.github.io/python-intermediate-development/python-intermediate-development/31-section4-intro/index.html" target="_blank">Developing Software In a Team and Releasing It</a></p>
     
     <h4>Day 5, {{day5}}, {{page.humantime}} {{page.timezone}}</h4>
-    <p><a href="{{ course_material_url }}/40-wrap-up/index.html" target="_blank">Finishing off tasks from previous days, Q & A, workshop wrap up</a></p>
+    <p><a href="https://carpentries-incubator.github.io/python-intermediate-development/40-wrap-up/index.html" target="_blank">Finishing off tasks from previous days, Q & A, workshop wrap up</a></p>
   </div>
 </div>
 
