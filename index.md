@@ -70,10 +70,10 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endif %}
 {% endcomment %}
 
-This is a pilot workshop for the Intermediate Python Software Skills course developed by the [Software Sustainability Institute](https://software.ac.uk) and delivered to the members of the [LSST:UK community](https://www.lsst.ac.uk/). The workshop will be led by instructors but will be largely in self-learning format - this means particiants will go though the materials on their own or in groups aided by insturctors and a group of helpers.
+This is a pilot workshop for the Intermediate Python Software Skills course developed by the [Software Sustainability Institute](https://software.ac.uk) and delivered to the members of the [LSST:UK community](https://www.lsst.ac.uk/). The workshop will be led by instructors but will be largely in self-learning format - this means participants will go through the materials on their own or in groups aided by instructors and a group of helpers.
   
 <h3 id="audience">Audience</h3>
-This course is aimed at teaching a core set of established intermediate-level best practice Python software development skills for working as part of a team in a research environment. A typical learner for this course may be someone who is working in academic research and who has gained basic software development skills and has been applying those skills actively for half a year or more. Now their software development-related projects are becoming larger and are involving more stakeholders so they now they need additional software engineering skills to help them design more robust software code, automate the process of testing and verifying its correctness and support collaborations with others.
+This course is aimed at teaching a core set of established intermediate-level best practice Python software development skills for working as part of a team in a research environment. A typical learner for this course maybe someone who is working in academic research and who has gained basic software development skills and has been applying those skills actively for half a year or more. Now their software development-related projects are becoming larger and are involving more stakeholders so they know they need additional software engineering skills to help them design more robust software code, automate the process of testing and verifying its correctness and support collaborations with others.
 
 <h3 id="where">When & Where</h3>
 The workshop will run online over 5 half-days, from {{page.humandate}}, {{page.humantime}}, using Zoom. The Zoom link to use for this event will be shared via email to registered participants.
@@ -114,7 +114,7 @@ for more information.
 <h3 id="schedule">Materials & Schedule</h3>
 The [material to be covered at the workshop]({{page.course_material_url}}) is available online but is still in development and thus may change. 
 
-Provisional schedule is shown below - be aware that there might be slight shift between the actual material covered on each day as you will be asked to finish all tasks from 
+The provisional schedule is shown below - be aware that there might be a slight shift between the actual material covered on each day as you will be asked to finish all tasks from 
 the previous day before moving forward.
 
 <div class="row">
@@ -124,7 +124,7 @@ the previous day before moving forward.
   {% assign day2 =  startdate | plus: 86400 | date_to_long_string %}
   {% assign day3 =  startdate | plus: 86400 | plus: 86400 | date_to_long_string %}
   {% assign day4 =  startdate | plus: 86400 | plus: 86400 | plus: 86400 | date_to_long_string %}
-  {% assign day5 =  startdate | plus: 86400*4 | date_to_long_string %}
+  {% assign day5 =  startdate | plus: {{ 86400 | times:4 }} | date_to_long_string %}
 
   <div style="padding-left: 15px;">
     <h4>Day 1, {{day1}}, {{page.humantime}} {{page.timezone}}</h4>
@@ -143,7 +143,6 @@ the previous day before moving forward.
     <p><a href="{{page.course_material_url}}/40-wrap-up/index.html" target="_blank">Finishing off tasks from previous days, Q & A, workshop wrap up</a></p>
   </div>
 </div>
-
 
 
 
